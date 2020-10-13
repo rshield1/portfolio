@@ -15,7 +15,7 @@
     
     --clr-light: #f1f1f1;
     --clr-dark: #292929;
-    --clr-accent: #48ffd1;
+    --clr-accent: #1ff879;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -392,10 +392,11 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background-color: var(--clr-dark);
     overflow: hidden;
 }
 
