@@ -1,1 +1,5 @@
-/portfolio-item.html
+node_modules/
+dist/
+package.json
+package-lock.json
+examples
